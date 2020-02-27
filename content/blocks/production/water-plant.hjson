@@ -1,0 +1,19 @@
+name: Water Plant
+description: The ultimate water extractor.
+type: SolidPump
+category: production
+research: water-extractor
+# 600/sec
+pumpAmount: 10
+size: 4
+liquidCapacity: 3600
+consumes: {
+    power: 20
+}
+requirements: [
+    copper/2500
+    graphite/2500
+    lead/2000
+    phase-fabric/1500
+    thorium/1500
+]

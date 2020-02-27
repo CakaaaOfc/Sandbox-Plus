@@ -1,0 +1,30 @@
+name: teleporter
+type: MassDriver
+description: Basically the best mass driver.
+category: distribution
+#
+research: mass-driver
+# ^ temp ^
+#
+requirements: [
+    copper/1
+]
+# ^ temp ^ | Requires late-game materials
+consumes: {
+    power: 20
+}
+rotateSpeed: 1000
+reloadTime: 8
+minDistribute: 1
+knockback: 0
+shake: 0
+size: 1
+range: 675
+itemCapacity: 5
+translation: 1000
+#
+shootEffect: none
+smokeEffect: none
+receiveEffect: none
+hitEffect: none
+despawnEffect: none

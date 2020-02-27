@@ -10,13 +10,13 @@ a) Mech 1: The best builder mech.
 # CODE COMPLETE | Needs sprite
 #
 name: Mech 1
-description: The best builder mech.
+description: The best builder mech. Fast but extremely fragile. Highest build power but can't mine. Outputs lower damage than the Dart.
 #
 flying: true
-speed: 5
+speed: 3
 maxSpeed: 15
 drag: 0.1
-mass: 0.75
+mass: 1
 health: 50
 hitsize: 3
 mineSpeed: 0
@@ -24,7 +24,19 @@ drillPower: 0
 buildPower: 20
 itemCapacity: 0
 weapon: {
-    name: artillery-equip
-    shots: 0
-    bullet: standardCopper
+    name: blaster
+    length: 1.5
+    reload: 15
+    alternate: true
+    ejectEffect: shellEjectSmall
+    bullet: {
+        type: BasicBulletType
+        speed: 2.5
+        damage: 5
+        bulletWidth: 7
+        bulletHeight: 9
+        lifetime: 60
+        shootEffect: shootSmall
+        smokeEffect: shootSmallSmoke
+    }
 }

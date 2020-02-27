@@ -1,0 +1,17 @@
+name: Mech 1 Pad
+description: Provides transformation into the best builder mech.
+type: MechPad
+mech: mech1
+size: 2
+consumes: {
+    power: 1
+}
+category: upgrade
+research: javelin-ship-pad
+requirements: [
+    lead/250
+    silicon/300
+    titanium/350
+    phase-fabric/200
+    surge-alloy/175
+]

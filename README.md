@@ -3,13 +3,13 @@
 
 ## In Progress:
 ### 1) Mechs
-#### a) Mech 1: The best builder mech. [ CODE: done | SPRITE: :( ]
+#### a) Mech 1: The best builder mech.
     i) Fastest mech in terms of speed.
     ii) Fastest mech in terms of building.
     iii) Extremely fragile.
     iv) Can't do anything else.
     v) [research Javelin]
-#### b) Mech 2: The best mining mech. [ CODE: done | SPRITE: :( ]
+#### b) Mech 2: The best mining mech.
     i) Medium speed.
     ii) Second highest HP.
     iii) Max storage, drill power, and fastest mining speed.

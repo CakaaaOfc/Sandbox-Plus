@@ -31,17 +31,20 @@ weapon: {
         damage: 0
         hitEffect: blastExplosion
         knockback: 0.8
-        bulletWidth: 20
-        bulletHeight: 20
+        bulletWidth: 16
+        bulletHeight: 16
         ammoMultiplier: 4
-        splashDamageRadius: 45
-        splashDamage: 50
-        lifetime: 75
-        speed: 2.5
+        splashDamageRadius: 95
+        splashDamage: 70
+        lifetime: 125
+        speed: 3
         hitShake: 8
     }
-    reload: 60
+    reload: 160
+    alternate: true
+    inaccuracy: 3
     shots: 2
     spacing: 5
+    shotDelay: 5
     shake: 2
 }

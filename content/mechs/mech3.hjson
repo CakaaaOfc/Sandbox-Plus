@@ -5,10 +5,48 @@ c) Mech 3: The deadliest ground defense mech.
     iii) Highest weapon damage.
     iv) [research Mech 8]
 */
+#
+#
+#
 name: Mech 3
-description: temp
+description: The deadliest ground defense mech.
+#
+flying: false
+speed: 0.1
+maxSpeed: 0.2
+#
+# may be too fast
+boostSpeed: 1
+#
+# drag: 5
+mass: 15
+shake: 15
+health: 1200
+hitSize: 12
+mineSpeed: 0
+# drillPower: -1
+buildPower: 0
+itemCapacity: 0
+#
 weapon: {
-    name: artillery-equip
-    shots: 0
-    bullet: missileRevenant
+    name: reaper-gun
+    # length: 3
+    reload: 10
+    # width: 32
+    shots: 1
+    shootCone: 100
+    #
+    inaccuracy: 3
+    alternate: true
+    ejectEffect: none
+    bullet: {
+        type: BasicBulletType
+        bulletSprite: bullet
+        speed: 1
+        damage: 1200
+        bulletWidth: 18
+        bulletHeight: 25
+        shootEffect: shootBig
+        shootSound: shootBig
+    }
 }
