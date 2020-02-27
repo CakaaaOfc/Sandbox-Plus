@@ -1,0 +1,15 @@
+/*
+h) Mech 8: Balanced late-game ground mech.
+    i) Fourth fastest mech in terms of speed.
+    ii) Second fastest in terms of drill power and mining speed.
+    iii) Lower damage than Mech 3.
+    iv) Lower HP than Mech 4.
+    v) [research Mech 2 & Omega]
+*/
+name: Mech 8
+description: temp
+weapon: {
+    name: artillery-equip
+    shots: 0
+    bullet: missileRevenant
+}

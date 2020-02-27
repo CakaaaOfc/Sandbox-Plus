@@ -1,0 +1,14 @@
+/*
+f) Mech 6: The most durable air defense mech.
+    i) Slightly lower HP than Mech 4.
+    ii) Highest damage for bombExplosive-type.
+    iii) Slowest air mech in terms of speed, building, and mining.
+    iv) [research Mech 9] <- temp
+*/
+name: Mech 6
+description: temp
+weapon: {
+    name: artillery-equip
+    shots: 0
+    bullet: missileRevenant
+}

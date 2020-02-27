@@ -1,0 +1,30 @@
+/*
+a) Mech 1: The best builder mech.
+    i) Fastest mech in terms of speed.
+    ii) Fastest mech in terms of building.
+    iii) Extremely fragile.
+    iv) Can't do anything else.
+    v) [research Javelin]
+*/
+#
+# CODE COMPLETE | Needs sprite
+#
+name: Mech 1
+description: The best builder mech.
+#
+flying: true
+speed: 5
+maxSpeed: 15
+drag: 0.1
+mass: 0.75
+health: 50
+hitsize: 3
+mineSpeed: 0
+drillPower: 0
+buildPower: 20
+itemCapacity: 0
+weapon: {
+    name: artillery-equip
+    shots: 0
+    bullet: standardCopper
+}

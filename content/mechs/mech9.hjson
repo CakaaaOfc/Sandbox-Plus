@@ -1,0 +1,15 @@
+/*
+i) Mech 9: Balanced late-game air mech.
+    i) Third fastest mech (lower than Mech 5) in terms of speed.
+    ii) Third fastest in terms of drill power and mining speed.
+    iii) Lower damage than Mech 7.
+    iv) Lower HP than Mech 6.
+    v) [research Mech 1 & Glaive]
+*/
+name: Mech 9
+description: temp
+weapon: {
+    name: artillery-equip
+    shots: 0
+    bullet: missileRevenant
+}

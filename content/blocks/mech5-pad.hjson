@@ -1,0 +1,18 @@
+name: Mech 5 Pad
+description: temp
+type: MechPad
+mech: mech5
+size: 2
+# everything below is temp #
+consumes: {
+    power: 1
+}
+category: upgrade
+research: javelin-ship-pad
+requirements: [
+    lead/250
+    silicon/300
+    titanium/350
+    phase-fabric/200
+    surge-alloy/175
+]

@@ -1,0 +1,15 @@
+/*
+e) Mech 5: The best healing mech.
+    i) Does no damage.
+    ii) Second fastest mech in terms of speed.
+    iii) Third highest HP.
+    iv) Fourth fastest in terms of drill power and mining speed.
+    v) [research Tau]
+*/
+name: Mech 5
+description: temp
+weapon: {
+    name: artillery-equip
+    shots: 0
+    bullet: missileRevenant
+}

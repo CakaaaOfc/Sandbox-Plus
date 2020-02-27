@@ -1,0 +1,14 @@
+/*
+d) Mech 4: The most durable ground defense mech.
+    i) Slowest ground mech in terms of speed, building, and mining.
+    ii) Highest HP.
+    iii) Low weapon damage but can attack air and ground units.
+    iv) [research Mech 8]
+*/
+name: Mech 4
+description: temp
+weapon: {
+    name: artillery-equip
+    shots: 0
+    bullet: missileRevenant
+}

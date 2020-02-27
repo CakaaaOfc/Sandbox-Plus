@@ -1,0 +1,6 @@
+name: "Sandbox+"
+displayName: "Sandbox+"
+author: "c-baun"
+description: "[A Mindustry Mod] A test bench for future Mindustry mods."
+version: "0.1"
+minGameVersion: "104"

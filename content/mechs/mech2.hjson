@@ -1,0 +1,47 @@
+/*
+b) Mech 2: The best mining mech.
+    i) Medium speed.
+    ii) Second highest HP.
+    iii) Max storage, drill power, and fastest mining speed.
+    iv) Third highest weapon damage.
+    v) [research Dart(?)/Trident]
+*/
+#
+# CODE COMPLETE | Needs sprite
+#
+name: Mech 2
+description: The best mining mech.
+#
+flying: false
+speed: 0.7
+# maxSpeed = 10
+boostSpeed: 1
+# drag = 0.4
+mass: 3
+# health: 200
+hitSize: 8
+mineSpeed: 100
+drillPower: 250
+buildPower: 5
+itemCapacity: 3000
+weapon: {
+    name: artillery-equip
+    bullet: {
+        type: ArtilleryBulletType
+        damage: 0
+        hitEffect: blastExplosion
+        knockback: 0.8
+        bulletWidth: 20
+        bulletHeight: 20
+        ammoMultiplier: 4
+        splashDamageRadius: 45
+        splashDamage: 50
+        lifetime: 75
+        speed: 2.5
+        hitShake: 8
+    }
+    reload: 60
+    shots: 2
+    spacing: 5
+    shake: 2
+}

@@ -1,0 +1,14 @@
+/*
+c) Mech 3: The deadliest ground defense mech.
+    i) Second slowest mech in terms of speed.
+    ii) Can't drill or build.
+    iii) Highest weapon damage.
+    iv) [research Mech 8]
+*/
+name: Mech 3
+description: temp
+weapon: {
+    name: artillery-equip
+    shots: 0
+    bullet: missileRevenant
+}

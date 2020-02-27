@@ -1,0 +1,14 @@
+/*
+g) Mech 7: The deadliest air defense mech.
+    i) Second slowest air mech in terms of speed, building, and mining.
+    ii) Second highest overall weapon damage, missileRevenant-type.
+    iii) Can't drill or build.
+    iv) [research Mech 9]
+*/
+name: Mech 7
+description: temp
+weapon: {
+    name: artillery-equip
+    shots: 0
+    bullet: missileRevenant
+}
